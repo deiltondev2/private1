@@ -469,22 +469,22 @@ async function starts() {
 		}, 0)
 	}
 	
-	        if (budy.includes(" *TED ou PIX*")){
-		if (!isGroup) return
-		if (!isAntiRacismo) return
-		if (isGroupAdmins) return reply('cara, nao poste essas coisas, é errado, mas vc e admin n irei te banir')
-		client.updatePresence(from, Presence.composing)
-		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima").
-		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		reply(`tchau spammer ${sender.split("@")[0]} voce sera expulso `)
-		setTimeout( () => {
-			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
-		}, 0)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("tchau nota fake")
-		}, 0)
-	}
+	        //if (budy.includes(" *TED ou PIX*")){
+		//f (!isGroup) return
+		//if (!isAntiRacismo) return
+		//if (isGroupAdmins) return reply('cara, nao poste essas coisas, é errado, mas vc e admin n irei te banir')
+		//client.updatePresence(from, Presence.composing)
+		//if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima").
+		//var kic = `${sender.split("@")[0]}@s.whatsapp.net`
+		//reply(`tchau spammer ${sender.split("@")[0]} voce sera expulso `)
+		//setTimeout( () => {
+			//client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
+		//}, 0)
+		//setTimeout( () => {
+			//client.updatePresence(from, Presence.composing)
+			//reply("tchau nota fake")
+		//}, 0)
+	//}
 	
 	        if (budy.includes("https://vm.tiktok.com/")){
 		if (!isGroup) return
