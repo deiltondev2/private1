@@ -1,4 +1,5 @@
-
+//CREDITOS CAUSS BOT PELA BASE 
+//NÃO VENDA O BOT COM MINHAS MODIFICAÇÕES APENAS VIP CASO QUEIRA
 const {
     WAConnection,
     MessageType,
@@ -8,8 +9,8 @@ const {
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
 const { cmdadd } = require('./lib/totalcmd.js')
-const { imunes } = require('./src/imunes')
 const { canaldeilton } = require('.src/deilton')
+const { imunes } = require('./src/imunes')
 const { membrocm } = require('./src/membrocm')
 const { utils } = require('./src/utils')
 const { help } = require('./src/help')
@@ -58,13 +59,13 @@ const { limit } = require('./database/menu/limit*/
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const BotName = 'Deilton bot'; 
+const BotName = 'Private bot'; 
 const instagram = 'http://www.instagram.com/'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:meu criador\n' // criador
-            + 'ORG: Deilton;\n' // nome do bot
+            + 'ORG: PRIVATE;\n' // nome do bot
             + 'TEL;type=CELL;type=VOICE;waid=556696159143:+55 66 96159143\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = '.'
@@ -326,20 +327,20 @@ async function starts() {
 					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
       		mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD PRIVATE BOT*',
 					benned: 'Você para a banido do bot, por favor, contate o proprietário para retirar seu ban',
-					ownerG: '[❗] deilton? Este é um recurso especial para o deilton❌',
+					ownerG: '[❗] deilton? Este é um recurso especial para o deilton ❌',
 					ownerB: '[❗] deilton? Este é um recurso especial para o Deilton ❌',
-					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de CAUSS. Registre-se para fazer amizade com o bot Causs por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar seunome|17\n\n──「 deilton BOT 」──`,
+					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de CAUSS. Registre-se para fazer amizade com o bot Causs por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar seunome|17\n\n──「 PRIVATE BOT 」──`,
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["556696159143@s.whatsapp.net"] // coloque seu numero
+			const ownerNumber = ["556696159143@s.whatsapp.net"] // coloque seu numero+
 			const mod = [ownerNumber,"556696159143@s.whatsapp.net"]//seu numero
 			const adminbotnumber = ["556696159143@s.whatsapp.net"]//seu numero
 			const frendsowner = ["556696159143@s.whatsapp.net"]//seu numero
-			const premium = ["556696159143@s.whatsapp.net","557186613966@s.whatsapp.net",] 
+			const premium = ["556696159143@s.whatsapp.net","557186613965@s.whatsapp.net",] 
 			const isGroup = from.endsWith('@g.us')
 			const cassino = ['ㅤ\n*╔═─ CASSINO ─══*\n*║*\n*║*\n*╠* ROLETA DOS TRÊS\n*╠* NÚMEROS\n*║*\n*╠═─ 1 ─═─ 2 ─═─ 3*\n*║*\n*║*\n*╠* Não foi dessa vez mas\n*║* continue tentando.\n*║*\n*╚═─ CASSINO ─══*','ㅤ\n*╔═─ CASSINO ─══*\n*║*\n*║*\n*╠* ROLETA DOS TRÊS\n*╠* NÚMEROS\n*║*\n*╠═─ 2 ─═─ 3 ─═─ 1*\n*║*\n*║*\n*╠* Não foi dessa vez mas\n*║* continue tentando.\n*║*\n*╚═─ CASSINO ─══*','ㅤ\n*╔═─ CASSINO ─══*\n*║*\n*║*\n*╠* ROLETA DOS TRÊS\n*╠* NÚMEROS\n*║*\n*╠═─ 3 ─═─ 2 ─═─ 1*\n*║*\n*║*\n*╠* Não foi dessa vez mas\n*║* continue tentando.\n*║*\n*╚═─ CASSINO ─══*','ㅤ\n*╔═─ CASSINO ─══*\n*║*\n*║*\n*╠* ROLETA DOS TRÊS\n*╠* NÚMEROS\n*║*\n*╠═─ 1 ─═─ 3 ─═─ 2*\n*║*\n*║*\n*╠* Não foi dessa vez mas\n*║* continue tentando.\n*║*\n*╚═─ CASSINO ─══*','ㅤ\n*╔═─ CASSINO ─══*\n*║*\n*║*\n*╠* ROLETA DOS TRÊS\n*╠* NÚMEROS\n*║*\n*╠═─ 2 ─═─ 1 ─═─ 3*\n*║*\n*║*\n*╠* Não foi dessa vez mas\n*║* continue tentando.\n*║*\n*╚═─ CASSINO ─══*','ㅤ\n*╔═─ CASSINO ─══*\n*║*\n*║*\n*╠* ROLETA DOS TRÊS\n*╠* NÚMEROS\n*║*\n*╠═─ 3 ─═─ 1 ─═─ 2*\n*║*\n*║*\n*╠* Não foi dessa vez mas\n*║* continue tentando.\n*║*\n*╚═─ CASSINO ─══*','ㅤ\n*╔═─ CASSINO ─══*\n*║*\n*║*\n*╠* ROLETA DOS TRÊS\n*╠* NÚMEROS\n*║*\n*╠═─ 1 ─═─ 1 ─═─ 1*\n*║*\n*║*\n*╠* PARABÉNS !!!\n*╠* VOCÊ GANHOU NO CASSINO.\n*║*\n*╚═─ CASSINO ─══*','ㅤ\n*╔═─ CASSINO ─══*\n*║*\n*║*\n*╠* ROLETA DOS TRÊS\n*╠* NÚMEROS\n*║*\n*╠═─ 2 ─═─ 2 ─═─ 2*\n*║*\n*║*\n*╠* PARABÉNS !!!\n*╠* VOCÊ GANHOU NO CASSINO.\n*║*\n*╚═─ CASSINO ─══*','ㅤ\n*╔═─ CASSINO ─══*\n*║*\n*║*\n*╠* ROLETA DOS TRÊS\n*╠* NÚMEROS\n*║*\n*╠═─ 3 ─═─ 3 ─═─ 3*\n*║*\n*║*\n*╠* PARABÉNS !!!\n*╠* VOCÊ GANHOU NO CASSINO.\n*║*\n*╚═─ CASSINO ─══*']
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -469,22 +470,22 @@ async function starts() {
 		}, 0)
 	}
 	
-	        //if (budy.includes(" *TED ou PIX*")){
-		//f (!isGroup) return
-		//if (!isAntiRacismo) return
-		//if (isGroupAdmins) return reply('cara, nao poste essas coisas, é errado, mas vc e admin n irei te banir')
-		//client.updatePresence(from, Presence.composing)
-		//if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima").
-		//var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		//reply(`tchau spammer ${sender.split("@")[0]} voce sera expulso `)
-		//setTimeout( () => {
-			//client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
-		//}, 0)
-		//setTimeout( () => {
-			//client.updatePresence(from, Presence.composing)
-			//reply("tchau nota fake")
-		//}, 0)
-	//}
+	        if (budy.includes(" *TED ou PIX*")){
+		if (!isGroup) return
+		if (!isAntiRacismo) return
+		if (isGroupAdmins) return reply('cara, nao poste essas coisas, é errado, mas vc e admin n irei te banir')
+		client.updatePresence(from, Presence.composing)
+		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
+		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
+		reply(`tchau spammer ${sender.split("@")[0]} voce sera expulso `)
+		setTimeout( () => {
+			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
+		}, 0)
+		setTimeout( () => {
+			client.updatePresence(from, Presence.composing)
+			reply("tchau nota fake")
+		}, 0)
+	}
 	
 	        if (budy.includes("https://vm.tiktok.com/")){
 		if (!isGroup) return
@@ -562,16 +563,10 @@ async function starts() {
 			reply("olha eu aqui carai")
 	}
 	
-	
-		if (messagesC.includes("bot")){
+		/*if (messagesC.includes("bot")){
 			client.updatePresence(from, Presence.composing)
-			reply("oi")
-			
-	  if (messagesC.includes("canaldeilton")){
-	    client.updatePresence(from, Presence.
- composing)
-          reply("se escreve no canal do deilton ai. link: https://youtube.com/channel/UCR6kdVsFd41kxthVs7_XxnQ")	    
-	   		
+			reply("oi") */
+			//retirado pois responde dms kk
 	
 	
 	if (messagesC.includes("mt1")){
@@ -719,7 +714,7 @@ reply("oi posso ajudar")
 					break
 				case 'addvip':  
 					if (!isOwner) return reply(mess.only.ownerB)
-					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o Deilton ou digite * # Daftarvip * para adquirir o acesso Premium!' ,text, { quoted: mek })
+					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o Skiller ou digite * # Daftarvip * para adquirir o acesso Premium!' ,text, { quoted: mek })
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('A marca-alvo que você quer chutar!')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
@@ -1014,8 +1009,7 @@ case 'desligar':
 				//_GRUPO
 				case 'setnome':
                    if (!isGroup) return reply(mess.only.group)
-			       if (!isGroupAdmins) return 
-			       reply(mess.only.admin)
+			       if (!isGroupAdmins) return reply(mess.only.admin)
 			   	   if (!isBotGroupAdmins) return reply(mess.only.Badmin)
                    client.groupUpdateSubject(from, `${body.slice(9)}`)
                    client.sendMessage(from, 'Sucesso, alterou o nome do grupo', text, {quoted: mek})
@@ -1695,7 +1689,7 @@ case 'musica':
                 play = body.slice(5)
                 anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=apivinz`)
                if (anu.error) return reply(anu.error)
-                 infomp3 = `*MUSICA ENCONTRADA!!!*\nTítulo : ${anu.result.title}\nUrl : ${anu.result.source}\nTamanho : ${anu.result.size}\n\ndeilton 𝙳𝚘𝚖𝚒𝚗𝚊 🇦
+                 infomp3 = `*MUSICA ENCONTRADA!!!*\nTítulo : ${anu.result.title}\nUrl : ${anu.result.source}\nTamanho : ${anu.result.size}\n\nDEILTON 𝙳𝚘𝚖𝚒𝚗𝚊 🇦🇴
 𝙰 𝙼𝚄́𝚂𝙸𝙲𝙰 𝙿??𝙳??𝙳𝙰 𝙴𝚂𝚃𝙰́ 𝚂𝙴??𝙳𝙾 𝙱𝙰𝙸𝚇𝙰𝙳𝙰`
                 buffer = await getBuffer(anu.result.thumbnail)
                 lagu = await getBuffer(anu.result.url_audio)
@@ -2030,7 +2024,7 @@ break
 case 'sn':
 const sn = ['sim', 'não']
 gosto = body.slice(3)
-if (args.length < 1) return client.sendMessage(from, `Você deve fazer uma pergunta...\nExemplo: ${prefix}sn Skdeilton é um baiano preguiçoso?`, text, {quoted: mek})
+if (args.length < 1) return client.sendMessage(from, `Você deve fazer uma pergunta...\nExemplo: ${prefix}sn O deilton é um baiano preguiçoso?`, text, {quoted: mek})
 const jawab = sn[Math.floor(Math.random() * (sn.length))]
 hasil = `${gosto}\n\nSegundo meus cálculos, eu acredito que... ${jawab}`
 reply(hasil)
@@ -2055,7 +2049,7 @@ yhb = `Que fofo... @${sender.split("@")[0]} deu um abraço apertado em @${mentio
 mentions(yhb, yhb, true)
 break
 case 'dado':    
-					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o deilton ou digite *.Daftarvip* para adquirir o acesso Premium!' ,text, { quoted: mek })
+					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o Deilton  ou digite *.Daftarvip* para adquirir o acesso Premium!' ,text, { quoted: mek })
 					
 					kapankah = body.slice(1)
 					const elu =['1','2','3','4','5','6']
@@ -2111,14 +2105,14 @@ case '%gado':
 				case 'help':
 				case 'menu':
 wew = fs.readFileSync('./assets/foto.png')
-                client.sendMessage(from, wew, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐎𝐅𝐂😈", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./assets/botlogo.webp')} } }, caption: help(prefix) })
+                client.sendMessage(from, wew, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "DEILTON DOMINA😈", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./assets/botlogo.webp')} } }, caption: help(prefix) })
 				  break
 				case 'help1':
 				case 'menu1':
 					client.sendMessage(from, help1(prefix), text)
 					break
-
-                    ///client.sendMessage(from, ajudantes(prefix) , text, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": " 𝐀𝐉𝐔𝐃𝐀𝐍𝐓𝐄𝐒 𝐄 𝐏𝐀𝐑𝐂𝐄𝐑𝐈𝐀𝐒 🤠", 'jpegThumbnail': fs.readFileSync('kk/sticker/botlogo.webp')}}}})					
+case 'safiora':
+                    client.sendMessage(from, ajudantes(prefix) , text, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": " 𝐀𝐉𝐔𝐃𝐀𝐍𝐓𝐄𝐒 𝐄 𝐏𝐀𝐑𝐂𝐄𝐑𝐈𝐀𝐒 🤠", 'jpegThumbnail': fs.readFileSync('kk/sticker/botlogo.webp')}}}})					
                 break
 					break
 case 'vipmenu':
@@ -2146,7 +2140,7 @@ case 'imunes':
 		client.sendMessage(from, imunes(prefix, sender), text, {quoted: mek})
                 break
 				case 'metodos':
-		client.sendMessage(from, metodos(prefix) , text, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": " METODOS DEILTON ", 'jpegThumbnail': fs.readFileSync('kk/sticker/botlogo.webp')}}}})					
+		client.sendMessage(from, metodos(prefix) , text, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": " METODOS PRIVATE ", 'jpegThumbnail': fs.readFileSync('kk/sticker/botlogo.webp')}}}})					
                 break
 			  case 'compras':
 		client.sendMessage(from, compras(prefix, sender), text, {quoted: mek})
@@ -2280,8 +2274,11 @@ case 'antilink':
 						reply('1 para ativar, 0 para desativar ')
 					}
 					break
-				         
-                         
+				//INFO BOT
+case 'owner':
+                    client.sendMessage(from, {displayname: "DEILTON", vcard: vcard}, MessageType.contact, { quoted: mek})
+                    client.sendMessage(from, 'Ctt do meu dono ai, pfv n flode o chat',MessageType.text, { quoted: mek} )
+                    break
 case 'speed':
                 case 'ping':
                 
@@ -2351,6 +2348,10 @@ case 'beat1':
 tujuh = fs.readFileSync('./assets/beat1.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
+case 'glub':
+tujuh = fs.readFileSync('./assets/glub.mp3');
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
 case 'gonzaga':
 tujuh = fs.readFileSync('./assets/gonzaga.mp3');
 client.sendMessage(from, tujuh, MenssageType.
@@ -2362,12 +2363,6 @@ tujuh =fs.readFileSync('./assets/gtarp.mp3');
 client.sedMessage(from, tujuh, MenssageType.
  audio, {quoted: mek, minetype: 'audio/mp4',
  ptt:true})
-break
-case 'gluh':
-tujuh = fs.readFileSync('./assets/glub.mp3');
-client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-break
-
 
                     case 'level':
 					if (!isLevelingOn) return reply(mess.levelnoton)
@@ -2408,7 +2403,7 @@ break
                     teks = `*CONSULTA REALIZADA* \n\n*DDD INFORMADO :*\n*- ${args[0]}*\n\n*Estado Encontrado:*\n*${dataC.Estado}*\n\n*Cidades Encontradas:*\n\n*${dataC.Cidades}*\n\n➢ *_Lucasss Domina 🎭💱_*`
                     client.sendMessage(from, teks, text, {quoted: mek})
                     break
-                 case 'spamcall':
+                 case 'spamcvall':
           if (!isPremium) return reply(mess.only.premi)
           reply('Espere..')
                                        if (args[0].startsWith('08')) return reply('Use o prefixo número 8/n ex : *8796662*')
@@ -2432,7 +2427,7 @@ break
                     if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					sa = await getBuffer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/556696159143/*╰──────*「 Skdeilton * 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO PRIVATE BOT_*\n*_Ketik #daftarvip*' })
+					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/+556696159143/*╰──────*「 * Skiller * 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO PRIVATE BOT_*\n*_Ketik #daftarvip*' })
 					break
 case 'daftarvip': 
 					client.sendMessage(from, daftarvip(prefix) , text, { quoted: mek })
@@ -2446,7 +2441,7 @@ case 'daftarvip':
 					case 'dono':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4V_4fdvF8rluX0T3KKGOvY0TusMwx7nVWtw&usqp=CAU`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:SKdeilton\n*YOUTUBE:* \n*WPP:* wa.me/+556696159143\n*INSTA:* @deilton on\n\n\nEspero que tenham gostado do bot 🐊🚩️'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* SKILLER\n*YOUTUBE:* https://youtube.com/c/SKILLERFFOFC\n*WPP:* wa.me/+558892594715\n*INSTA:* @skiller.on\n\n\nEspero que tenham gostado do bot 🐊🚩️'})
 					break
 				//_IMAGENS
 				case 'boanoite':
@@ -2487,15 +2482,15 @@ case 'belle3':
 					buffer = await getBuffer(`https://1.bp.blogspot.com/-3K_b14RzHTA/XwTW7SQTPRI/AAAAAAAAPtY/UOaKURECbzwXfvASa3g6Pz0D_Ha73Dw4wCLcBGAsYHQ/s1600/boabronha_10.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'olha p isso mano, pqp '})
 					break
-case 'termux':
+case 'termhs':
 					meme = await kagApi.memes()
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgADDq_64EbTI0NroP7CUoVeWmu1J06NnGHw&usqp=CAU`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Terminal é um programa muito conhecido no mundo das distribuições Linux. Ele é uma ferramenta que facilita muito nas tarefas relacionadas ao sistema. Agora, já pensou em utilizar o Terminal Linux no seu Android? Esta é a proposta do Termux.\n\n*TERMUX: UTILIZE O TERMINAL NO SEU ANDROID*\n\nA utilização do Terminal aumenta muito a produtividade do usuário que já possui um determinado nível de conhecimento técnico.\nCom o terminal, é possível fazer diversas e diferentes coisas, desde navegar entre os diretórios e instalar programas, até descompactar arquivos e monitorar os processos.'})
 					break
-case 'temuht':
-			     	//memein = await kagApi.memeindo()
-					//buffer = await getBuffer(`https://i.imgur.com/dPUVFF6.png`)
-					//client.sendMessage(from, buffer, image, {quoted: mek, caption: '*_Comandos basicos para bot:_*\n\n*pkg upgrade && pkg update*\n*pkg install git*\n*git clone (link da git)*\n*cd (repositório)*\n*bash install.sh*\n*npm start*\n\n*558892594715 NO CONTROLE*'})
+case 'termuxshot':
+			     	memein = await kagApi.memeindo()
+					buffer = await getBuffer(`https://i.imgur.com/dPUVFF6.png`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*_Comandos basicos para bot:_*\n\n*pkg upgrade && pkg update*\n*pkg install git*\n*git clone (link da git)*\n*cd (repositório)*\n*bash install.sh*\n*npm start*\n\n*558892594715 NO CONTROLE*'})
 					break 
 					case 'porno':
 				    if (!isGroup) return reply(mess.only.group)
@@ -2555,12 +2550,12 @@ case 'darkjokes':
 						console.log(color('[ERROR]','red'), 'eita bixo comando não registrado de', color(sender.split('@')[0]))
 					}
                            }
-		//} catch (e) {
-			//console.log('Error : %s', color(e, 'red'))
-		//}
+		} catch (e) {
+			console.log('Error : %s', color(e, 'red'))
+		}
 						console.log(color('[ERROR]','red'), 'eita bixo comando não registrado de', color(sender.split('@')[0]))
 					
                           
-	}
+	})
 }
 starts()
