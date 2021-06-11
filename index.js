@@ -9,7 +9,7 @@ const {
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
 const { cmdadd } = require('./lib/totalcmd.js')
-const { canaldeilton } = require('.src/deilton')
+const { canaldeilton } = require('./src/deilton')
 const { imunes } = require('./src/imunes')
 const { membrocm } = require('./src/membrocm')
 const { utils } = require('./src/utils')
