@@ -2117,7 +2117,7 @@ wew = fs.readFileSync('./assets/foto.png')
 				case 'menu1':
 					client.sendMessage(from, help1(prefix), text)
 					break
-case mp':
+
                     ///client.sendMessage(from, ajudantes(prefix) , text, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": " 𝐀𝐉𝐔𝐃𝐀𝐍𝐓𝐄𝐒 𝐄 𝐏𝐀𝐑𝐂𝐄𝐑𝐈𝐀𝐒 🤠", 'jpegThumbnail': fs.readFileSync('kk/sticker/botlogo.webp')}}}})					
                 break
 					break
