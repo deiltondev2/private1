@@ -2280,11 +2280,7 @@ case 'antilink':
 						reply('1 para ativar, 0 para desativar ')
 					}
 					break
-				//INFO BOT
-case 'owner':
-                    client.sendMessage(from, {displayname"SKdeilton", vcard: vcard}, MessageType.contact, { quoted: mek})
-                    client.sendMessage(from, 'Ctt do meu dono ai, pfv n flode o chat',MessageType.text, { quoted: mek} )
-                    break                
+				         
                          
 case 'speed':
                 case 'ping':
