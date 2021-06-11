@@ -2555,9 +2555,9 @@ case 'darkjokes':
 						console.log(color('[ERROR]','red'), 'eita bixo comando não registrado de', color(sender.split('@')[0]))
 					}
                            }
-		} catch (e) {
-			console.log('Error : %s', color(e, 'red'))
-		}
+		//} catch (e) {
+			//console.log('Error : %s', color(e, 'red'))
+		//}
 						console.log(color('[ERROR]','red'), 'eita bixo comando não registrado de', color(sender.split('@')[0]))
 					
                           
